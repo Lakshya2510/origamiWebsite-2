@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  }
+
+h1{
+  text-align: center;
+  color:rgb(255, 0, 0);
+ }
+
+ /*{
+  border:solid;
+ }*/
+
+ a:link{
+   color: aqua;
+ }
+
+ a:visited{
+   color: chartreuse;
+ }
+
+ .Header{
+  background-color: rgb(255, 0, 0);
+  background-image: url(b.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+.games{
+  background-color:lightgreen;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(bg.jpg);
+  background-attachment: fixed;
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-evenly;
+ }
+
+ h3{
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+ }
